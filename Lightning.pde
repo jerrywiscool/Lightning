@@ -52,8 +52,8 @@ void mousePressed()
  starty=0;
  endx=250;
  endy=500;
- double death= Math.random()*70;
-  if(death>=60){
+ double death= (int)(Math.random()*71);
+  if(death>=69){
   fill(#B4AFAF);
   ellipse(400,200,300,300); 
   ellipse(100,200,300,300); 
