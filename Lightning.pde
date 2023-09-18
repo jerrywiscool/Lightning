@@ -17,8 +17,8 @@ void draw()
  fill(0,0,0,30);
  rect(-10,-10,520,520);
  while(endx<500){
-   endx=startx+(int)(Math.random()*250)-100;
-   endy=starty+(int)(Math.random()*120);
+   endx=startx+(int)(Math.random()*300)-150;
+   endy=starty+(int)(Math.random()*90);
    line(startx,starty,endx,endy);
    startx=endx;
    starty=endy;
